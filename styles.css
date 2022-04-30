@@ -97,3 +97,25 @@ a {
 #projects a img:hover {
   transform: scale(1.08);
 }
+
+@media all and (max-width: 420px) {
+  .panel {
+    width: 30%;
+  }
+  #viewer {
+    position: relative;
+    left: 30%;
+  }
+  #projects {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 0;
+    margin-top: 3vh;
+    margin-left: 3rem;
+  }
+  #projects a img {
+    width: 100%;
+    transform: scale(1);
+    transition: 0.15s transform;
+  }
+}
