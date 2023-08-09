@@ -80,6 +80,7 @@ body {
 }
 
 #projects a {
+  color: blue;
   overflow: hidden;
   text-decoration: none;
 }
